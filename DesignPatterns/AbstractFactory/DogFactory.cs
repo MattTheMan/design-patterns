@@ -5,8 +5,11 @@
 
 namespace AbstractFactory
 {
-    public class DogFactory : AnimalFactory
+    /// <summary>
+    /// This is a concrete factory class which creates dogs.
+    /// </summary>
+    public class DogFactory : IFactory<Animal>
     {
-        public override Animal CreateAnimal() => new Dog();
+        public Animal Create() => new Dog();
     }
 }

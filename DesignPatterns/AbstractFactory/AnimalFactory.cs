@@ -6,12 +6,12 @@
 namespace AbstractFactory
 {
     /// <summary>
-    /// This is the abstract factory.
-    /// The DogFactory class and CatFactory class the concrete
-    /// factory classes which create Dogs and Cats respectively.
+    /// This is the abstract factory - in this case I've simply used an interface.
+    /// Note I have also made the Factory interface generic so that it can be used
+    /// for different factory types.    
     /// </summary>
-    public abstract class AnimalFactory
+    public interface IFactory<T>
     {
-        public abstract Animal CreateAnimal();
+        T Create();
     }
 }
