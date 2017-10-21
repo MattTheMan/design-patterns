@@ -16,10 +16,10 @@ namespace AbstractFactory
         public static void Main(string[] args)
         {            
             MakeDogs();
-            Animal animal1 = _factory.CreateAnimal();
+            Animal animal1 = _factory.Create();
 
             MakeCats();
-            Animal animal2 = _factory.CreateAnimal();
+            Animal animal2 = _factory.Create();
 
             Console.WriteLine($"Animal 1 says: {animal1.Speak()}");
             Console.WriteLine($"Animal 2 says: {animal2.Speak()}");
@@ -28,7 +28,7 @@ namespace AbstractFactory
             Console.Read();
         }
 
-        private static AnimalFactory _factory;
+        private static IFactory<Animal> _factory;
 
         private static void MakeDogs() => _factory = new DogFactory();
 
