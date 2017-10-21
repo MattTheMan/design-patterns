@@ -3,7 +3,7 @@
 // Copyright (c) 2017 MattTheMan
 ///////////////////////////////////////////////////////////////////////////////
 
-namespace AbstractFactory
+namespace Factory
 {
     /// <summary>
     /// This is a concrete factory class which creates cats.

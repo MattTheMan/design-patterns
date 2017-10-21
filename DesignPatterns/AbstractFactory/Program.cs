@@ -5,7 +5,7 @@
 
 using System;
 
-namespace AbstractFactory
+namespace Factory
 {
     /// <summary>
     /// The program has an animal factory for creating subclass instances of Animal such as Dog or Cat.
