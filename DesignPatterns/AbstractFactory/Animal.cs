@@ -3,7 +3,7 @@
 // Copyright (c) 2017 MattTheMan
 ///////////////////////////////////////////////////////////////////////////////
 
-namespace AbstractFactory
+namespace Factory
 {
     public abstract class Animal
     {
