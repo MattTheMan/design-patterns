@@ -1,0 +1,12 @@
+﻿///////////////////////////////////////////////////////////////////////////////
+// MIT License (see root directory for LICENSE file)
+// Copyright (c) 2017 MattTheMan
+///////////////////////////////////////////////////////////////////////////////
+
+namespace AbstractFactory
+{
+    public class Cat : Animal
+    {
+        public override string Speak() => "Meow";
+    }
+}
