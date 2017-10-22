@@ -6,6 +6,7 @@ These design patterns are primarily taken from the Gang of Four design patterns 
 these examples will be written in C#.
 
 ### Current Patterns
+* Data Mapper
 * Factory
 * Factory Delegate
 * Singleton
