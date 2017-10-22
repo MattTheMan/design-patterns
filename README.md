@@ -5,7 +5,7 @@ The purpose of this repository is to provide simple demonstrations of software d
 These design patterns are primarily taken from the Gang of Four design patterns book. Most of
 these examples will be written in C#.
 
-### Current Paterns
+### Current Patterns
 * Factory
 * Factory Delegate
 * Singleton
